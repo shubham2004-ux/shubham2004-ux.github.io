@@ -10,7 +10,37 @@
     background-color: blue;
     font-size: larger;
     color: white;
-    margin-left: 180px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.g {
+    height: 20vh;
+}
+
+.pk {
+    color: white;
+}
+
+.space {
+    color: black;
+}
+
+.registration {
+    font-style: italic;
+    font-size: x-large
+}
+
+.fire {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(240, 20, 68);
+    font-size: larger;
+    color: white;
+    margin-left: 20px;
     margin-top: 20px;
     border-radius: 10px;
 }
