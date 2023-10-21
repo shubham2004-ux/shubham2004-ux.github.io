@@ -78,30 +78,11 @@
         height: 500px;
         position: relative;
     }
-    .end {
-        position: absolute;
-        padding-top: 50px;
-        color: white;
-        width: 700px;
-        text-align: start;
-        padding-left: 15px;
-        font-family: cursive;
-    }
-    .shubham {
-        position: absolute;
-        height: 220px;
-        margin-top: 250px;
-        padding-left: 20px;
-    }
-    .biography {
-        position: absolute;
-        margin-top: 290px;
-        color: white;
-        padding-left: 300px;
-        width: 900px;
-        font-size: larger;
-        font-weight: bold;
-    }
+}
+
+.blueimage {
+    height: 220px;
+    position: relative;
 }
 
 .biography {
@@ -120,23 +101,18 @@
     position: absolute;
 }
 
-.blueimage {
-    height: 220px;
-    position: relative;
+#lap {
+    position: relative
 }
 
-
-/* .over {
-    position:
-} */
-
-.end {
+#end {
     position: absolute;
-    font-size: x-large;
+    font-size: 20PX;
     margin-top: 45%;
-    color: rgba(241, 234, 234, 0.6);
+    color: rgba(0, 0, 0, 0.5);
     text-align: center;
     font-weight: 800;
+    width: 500px;
 }
 
 .py {
