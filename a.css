@@ -107,12 +107,12 @@
 
 #end {
     position: absolute;
-    font-size: 20PX;
-    margin-top: 55%;
-    color: rgba(0, 0, 0);
+    font-size: 18PX;
+    margin-top: 10%;
+    color: rgba(253, 251, 251, 0.5);
     text-align: center;
     font-weight: 800;
-    width: 400px;
+    width: 500px;
 }
 
 .py {
@@ -159,4 +159,61 @@
     height: 50px;
     margin-left: 1px;
     margin-right: 10px;
+}
+
+.mail {
+    margin-top: 50px;
+    font-family: cursive;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.social {
+    padding-bottom: 40px;
+    padding-right: 10px;
+}
+
+.register {
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 15px;
+    font-weight: bolder;
+}
+
+.register:hover {
+    background-color: darkblue;
+    scale: calc(1.1);
+    font-family: cursive;
+}
+
+.ending {
+    font-size: 50px;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-decoration-line: overline;
+    text-decoration: line-through;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace;
+    font-weight: 900;
+    padding: 100px;
+    border-radius: 15px;
+    b
+}
+
+.endbor {
+    background: ;
+}
+
+#label {
+    font-size: 30px;
+    background-color: skyblue;
+    color: darkblue;
+    font-weight: bolder;
+    font-style: italic;
+    padding: 10px;
+    text-decoration-line: underline;
+    text-decoration: line-through;
+    text-decoration-color: red;
 }
