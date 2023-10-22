@@ -16,7 +16,7 @@
 }
 
 .g {
-    height: 20vh;
+    padding-bottom: 50px;
 }
 
 .pk {
@@ -68,6 +68,7 @@
     }
     .courage {
         font-size: xx-large;
+        padding: auto 10px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     .fill {
@@ -93,8 +94,8 @@
         padding-left: 15px;
     }
     #shu {
-        height: 200px;
-        margin-top: 140px;
+        height: 150px;
+        margin-top: 118px;
         margin-left: 250px;
         position: absolute;
     }
