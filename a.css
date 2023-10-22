@@ -75,9 +75,36 @@
         font-family: Georgia, 'Times New Roman', Times, serif;
         word-spacing: 10px;
     }
-    .blueimage {
-        height: 500px;
+}
+
+@media (min-width: 640px) {
+    #blue {
+        width: 100vw;
         position: relative;
+        height: 52vh;
+    }
+    #bio {
+        position: absolute;
+        width: 700px;
+        padding-top: 10px;
+        font-size: x-large;
+        color: white;
+        font-weight: bold;
+        padding-left: 15px;
+    }
+    #shu {
+        height: 200px;
+        margin-top: 140px;
+        margin-left: 250px;
+        position: absolute;
+    }
+    .lapo {
+        height: 100vh;
+        width: 100vw;
+        border-radius: 1px;
+    }
+    .ending {
+        width: 100vh;
     }
 }
 
@@ -205,11 +232,6 @@
     font-weight: 900;
     padding: 100px;
     border-radius: 15px;
-    b
-}
-
-.endbor {
-    background: ;
 }
 
 #label {
