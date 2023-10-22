@@ -76,6 +76,21 @@
         font-family: Georgia, 'Times New Roman', Times, serif;
         word-spacing: 10px;
     }
+    #shu {
+        height: 100px;
+        margin-top: 118px;
+        margin-left: 250px;
+        position: absolute;
+    }
+}
+
+@media (min-width: 768px) {
+    #shu {
+        height: 200px;
+        margin-top: 140px;
+        margin-left: 250px;
+        position: absolute;
+    }
 }
 
 @media (min-width: 640px) {
@@ -92,12 +107,6 @@
         color: white;
         font-weight: bold;
         padding-left: 15px;
-    }
-    #shu {
-        height: 150px;
-        margin-top: 118px;
-        margin-left: 250px;
-        position: absolute;
     }
     .lapo {
         height: 100vh;
