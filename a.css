@@ -1,257 +1,297 @@
-.ko {
-    font-size: 25px
-}
-
-.lo {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: blue;
-    font-size: larger;
-    color: white;
-    margin-left: 20px;
-    margin-top: 20px;
-    border-radius: 10px;
-}
-
-.g {
-    padding-bottom: 50px;
-}
-
-.pk {
-    color: white;
-}
-
-.space {
-    color: black;
-}
-
-.registration {
-    font-style: italic;
-    font-size: x-large;
-    padding-left: 10px;
-}
-
-.fire {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: rgb(240, 20, 68);
-    font-size: larger;
-    color: white;
-    margin-left: 20px;
-    margin-top: 20px;
-    border-radius: 10px;
-}
-
-@media (min-width: 640px) {
-    .ko {
-        margin-left: 50px;
-        margin-top: 120px;
-        font-size: xx-large;
-        color: gray;
-    }
-}
-
-@media (min-width: 640px) {
-    .ninja {
-        height: 350px;
-    }
-}
-
-@media (min-width: 640px) {
-    .pk {
-        padding-left: 20px;
-        text-align: center;
-    }
-    .courage {
-        font-size: xx-large;
-        padding: auto 10px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-    .fill {
-        font-size: 20px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        word-spacing: 10px;
-    }
-    #shu {
-        height: 100px;
-        margin-top: 118px;
-        margin-left: 250px;
-        position: absolute;
-    }
-}
-
-@media (min-width: 768px) {
-    #shu {
-        height: 200px;
-        margin-top: 140px;
-        margin-left: 250px;
-        position: absolute;
-    }
-}
-
-@media (min-width: 640px) {
-    #blue {
-        width: 100vw;
-        position: relative;
-        height: 52vh;
-    }
-    #bio {
-        position: absolute;
-        width: 700px;
-        padding-top: 10px;
-        font-size: x-large;
-        color: white;
-        font-weight: bold;
-        padding-left: 15px;
-    }
-    .lapo {
-        height: 100vh;
-        width: 100vw;
-        border-radius: 1px;
-    }
-    .ending {
-        width: 100vh;
-    }
-}
-
-.blueimage {
-    height: 220px;
-    position: relative;
-}
-
-.biography {
-    position: absolute;
-    width: 350px;
-    padding-top: 10px;
-    font-size: small;
-    color: white;
-    font-weight: bold
-}
-
-.shubham {
-    height: 80px;
-    margin-top: 100px;
-    margin-left: 10px;
-    position: absolute;
-}
-
-#lap {
-    position: relative;
-    height: 400px;
-    border-radius: 20px;
-    padding: 10px;
-}
-
-#end {
-    position: absolute;
-    font-size: 18PX;
-    margin-top: 10%;
-    color: rgba(253, 251, 251, 0.5);
-    text-align: center;
-    font-weight: 800;
-    width: 400px;
-    text-align: center;
-    margin-left: 20px;
-}
-
-.py {
-    padding-right: 25px;
-}
-
-.about {
-    background-color: rgb(0, 0, 0);
-    color: white;
-    border-radius: 15px;
-}
-
-.bk {
-    font-weight: bolder;
-    padding: 20px;
-    font-size: 25px;
-}
-
-.bk:hover {
-    text-decoration: underline;
-    color: red;
-    cursor: pointer;
-    scale: calc(1.3);
-}
-
-.pro {
-    background-color: rgb(0, 0, 0);
-}
-
-.web {
-    border-color: red;
-    margin: auto 10px;
-}
-
-.program {
-    margin: auto 10px;
-}
-
-.hj {
-    border-color: black;
-}
-
-.css {
-    height: 50px;
-    margin-left: 1px;
-    margin-right: 10px;
-}
-
-.mail {
-    margin-top: 50px;
-    font-family: cursive;
-    margin-bottom: 50px;
-    padding: 10px;
-}
-
-.social {
-    padding-bottom: 40px;
-    padding-right: 10px;
-}
-
-.register {
-    font-size: 20px;
-    border-radius: 15px;
-    padding: 15px;
-    font-weight: bolder;
-}
-
-.register:hover {
-    background-color: darkblue;
-    scale: calc(1.1);
-    font-family: cursive;
-}
-
-.ending {
-    font-size: 50px;
-    text-transform: capitalize;
-    text-align: center;
-    background-color: black;
-    color: white;
-    text-decoration-line: overline;
-    text-decoration: line-through;
-    font-family: Arial, Helvetica, sans-serif;
-    font-family: monospace;
-    font-weight: 900;
-    padding: 100px;
-    border-radius: 15px;
-}
-
-#label {
-    font-size: 30px;
-    background-color: skyblue;
-    color: darkblue;
-    font-weight: bolder;
-    font-style: italic;
-    padding: 10px;
-    text-decoration-line: underline;
-    text-decoration: line-through;
-    text-decoration-color: red;
-}
+            .ko {
+            font-size: 25px
+        }
+        
+        .lo {
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: blue;
+            font-size: larger;
+            color: white;
+            margin-left: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        
+        .g {
+            padding-bottom: 50px;
+        }
+        
+        .pk {
+            color: white;
+        }
+        
+        .space {
+            color: black;
+        }
+        
+        .registration {
+            font-style: italic;
+            font-size: x-large;
+            padding-left: 10px;
+        }
+        
+        .fire {
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: rgb(240, 20, 68);
+            font-size: larger;
+            color: white;
+            margin-left: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        
+        @media (min-width: 640px) {
+            .ko {
+                margin-left: 50px;
+                margin-top: 120px;
+                font-size: xx-large;
+                color: gray;
+            }
+        }
+        
+        @media (min-width: 640px) {
+            .ninja {
+                height: 350px;
+            }
+        }
+        
+        @media (min-width: 640px) {
+            .pk {
+                padding-left: 20px;
+                text-align: center;
+            }
+            .courage {
+                font-size: xx-large;
+                padding: auto 10px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            .fill {
+                font-size: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                word-spacing: 10px;
+            }
+            #shu {
+                height: 100px;
+                margin-top: 118px;
+                margin-left: 250px;
+                position: absolute;
+            }
+        }
+        
+        @media (min-width: 768px) {
+            #shu {
+                height: 200px;
+                margin-top: 140px;
+                margin-left: 250px;
+                position: absolute;
+            }
+        }
+        
+        @media (min-width: 640px) {
+            #blue {
+                width: 100vw;
+                position: relative;
+                height: 52vh;
+            }
+            #bio {
+                position: absolute;
+                width: 700px;
+                padding-top: 10px;
+                font-size: x-large;
+                color: white;
+                font-weight: bold;
+                padding-left: 15px;
+            }
+            .lapo {
+                height: 100vh;
+                width: 100vw;
+                border-radius: 1px;
+            }
+            .ending {
+                width: 100vh;
+            }
+        }
+        
+        .blueimage {
+            height: 220px;
+            position: relative;
+        }
+        
+        .biography {
+            position: absolute;
+            width: 350px;
+            padding-top: 10px;
+            font-size: small;
+            color: white;
+            font-weight: bold
+        }
+        
+        .shubham {
+            height: 80px;
+            margin-top: 100px;
+            margin-left: 10px;
+            position: absolute;
+        }
+        
+        #lap {
+            position: relative;
+            height: 400px;
+            border-radius: 20px;
+            padding: 10px;
+        }
+        
+        #end {
+            position: absolute;
+            font-size: 18PX;
+            margin-top: 10%;
+            color: rgba(253, 251, 251, 0.5);
+            text-align: center;
+            font-weight: 800;
+            width: 400px;
+            text-align: center;
+            margin-left: 20px;
+        }
+        
+        .py {
+            padding-right: 25px;
+        }
+        
+        .about {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            border-radius: 15px;
+        }
+        
+        .bk {
+            font-weight: bolder;
+            padding: 20px;
+            font-size: 25px;
+        }
+        
+        .bk:hover {
+            text-decoration: underline;
+            color: red;
+            cursor: pointer;
+            scale: calc(1.3);
+        }
+        
+        .pro {
+            background-color: rgb(0, 0, 0);
+        }
+        
+        .web {
+            border-color: red;
+            margin: auto 10px;
+        }
+        
+        .program {
+            margin: auto 10px;
+        }
+        
+        .hj {
+            border-color: black;
+        }
+        
+        .css {
+            height: 50px;
+            margin-left: 1px;
+            margin-right: 10px;
+        }
+        
+        .mail {
+            margin-top: 50px;
+            font-family: cursive;
+            margin-bottom: 50px;
+            padding: 10px;
+        }
+        
+        .social {
+            padding-bottom: 40px;
+            padding-right: 10px;
+        }
+        
+        .register {
+            font-size: 20px;
+            border-radius: 15px;
+            padding: 15px;
+            font-weight: bolder;
+        }
+        
+        .register:hover {
+            background-color: darkblue;
+            scale: calc(1.1);
+            font-family: cursive;
+        }
+        
+        .ending {
+            font-size: 50px;
+            text-transform: capitalize;
+            text-align: center;
+            background-color: black;
+            color: white;
+            text-decoration-line: overline;
+            text-decoration: line-through;
+            font-family: Arial, Helvetica, sans-serif;
+            font-family: monospace;
+            font-weight: 900;
+            padding: 100px;
+            border-radius: 15px;
+        }
+        
+        #label {
+            font-size: 30px;
+            background-color: skyblue;
+            color: darkblue;
+            font-weight: bolder;
+            font-style: italic;
+            padding: 10px;
+            text-decoration-line: underline;
+            text-decoration: line-through;
+            text-decoration-color: red;
+        }
+        
+        .container {
+            width: 300px;
+            overflow: hidden;
+        }
+        
+        .container .text {
+            position: relative;
+            color: #4070f4;
+            font-size: 30px;
+            font-weight: 600;
+        }
+        
+        .container .text.first-text {
+            color: rgb(65, 53, 53);
+        }
+        
+        .text.second-text:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #ffffff;
+            border-left: 2px solid #4070f4;
+            animation: animate 4s steps(12) infinite;
+        }
+        
+        @keyframes animate {
+            40%,
+            60% {
+                left: calc(100% + 4px);
+            }
+            100% {
+                left: 0%;
+            }
+        }
+        
+        @media (min-width:640px) {

@@ -32,6 +32,33 @@
                 <img class=" ninja   h-[300px]    my-10 mx-auto  " src="A.jpg" alt="">
 
                 <p class="sm:mt-5 ko">Welcome To The S.S. Devlopers Community And Thank You &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</p>
+                <div class="container sm:hidden"><span class="text first-text">I'm a</span>
+                    <span class="text second-text">Web Devloper</span>
+                </div>
+                <script class="sm:hidden">
+                    const text = document.querySelector(".second-text");
+                    const textload = () => {
+                        setTimeout(() => {
+                            text.textContent = "Shubham Singh";
+                        }, 0);
+
+                        setTimeout(() => {
+                            text.textContent = "Web Devloper";
+                        }, 4000);
+
+                        setTimeout(() => {
+                            text.textContent = "Coder";
+                        }, 8000);
+                    }
+
+
+
+
+
+                    textload();
+                    setInterval(textload, 12000);
+                </script>
+
             </div>
             <main class="bg-black mt-2  flex flex-wrap m-auto   pk">
 
