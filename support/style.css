@@ -1,0 +1,79 @@
+.support {
+    position: fixed;
+    height: 50vh;
+    width: 100vw;
+}
+
+.monkey {
+    position: absolute;
+    color: white;
+}
+
+.ok {
+    color: black;
+    scroll-behavior: smooth;
+    overflow: scroll;
+    margin-top: 180px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.input {
+    width: 60vw;
+    height: 5vh;
+    background-color: #f7f7f7;
+    margin-left: 50px;
+}
+
+.button {
+    background-color: #f7f7f7;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.search {
+    height: 30px;
+    width: 60px;
+    padding: 6px;
+    border: 1px solid #f7f7f7;
+    border-left: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width:640px) {
+    .monkey {
+        margin-left: 250px;
+    }
+    .searchbar {
+        margin-top: 40px;
+    }
+}
+
+.h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    text-shadow: 5px 5px rgb(248, 17, 17);
+}
+
+.h2 {
+    font-size: 30px;
+    padding: 20px;
+    font-weight: bold;
+    text-shadow: 5px 5px rgb(241, 27, 159);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
