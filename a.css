@@ -7,7 +7,7 @@
                                                             align-items: center;
                                                         }
                                                         
-                                                        @media only screen and (min-width: 720px) {
+                                                        @media only screen and (min-width: 460px) {
                                                             .logo {
                                                                 /* background-color: chocolate; */
                                                                 width: 20%;
