@@ -4,45 +4,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netfix</title>
-    <link rel="stylesheet" href="a.css">
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header class="header w-[100%] h-[70px] p-5 bg-black justify-between flex  align-middle">
-        <div class="logo flex     w-[25%]">
-            <img class="netflix-image   " src="https://images.ctfassets.net/y2ske730sjqp/6bhPChRFLRxc17sR8jgKbe/6fa1c6e6f37acdc97ff635cf16ba6fb3/Logos-Readability-Netflix-logo.png" alt="Netflix logo">
-        </div>
-        <div class="search-box rounded-xl h-10   w-[40%]  flex justify-center  flex-wrap">
-            <input type="text" class="indent-2 h-[100%] input-box rounded-l-xl   w-[80%] outline-none border-none   " placeholder="Search Movies">
-            <img class="search-icon w-[20%] h-[100%] rounded-r-xl " onclick="search()" src="https://t3.ftcdn.net/jpg/04/99/34/78/360_F_499347841_IXq0bLOPN4MkKAa71nP3WMQq6LVlgeTO.jpg" alt="search-logo">
+    <nav style="padding: 0 5%; align-items: center; box-sizing: border-box;" class="h-[77px] w-[100%]  bg-gradient-to-r from-blue-800 to-sky-300 flex justify-between ">
+        <div class=" w-[30%] h-[50%] ">
+            <p class="  text-red-600 font-mono  font-bold text-[26px]">S.S.Devloper</p>
 
         </div>
+        <div class=" text-center w-[20%] h-[100%] ">
+            <p onclick="ok()" class="text-white text-[50px]">=</p>
+        </div>
 
 
-    </header>
-    <main id="main" class="main ">
-        <!-- <div class=" poster flex flex-wrap flex-row-reverse  justify-center align-middle  bg-gray-800 ">
-            <div class="overlay">
-                <div class="all-content my-36 font-extrabold overflow-hidden   ">
 
-                    <div class="rating text-white   ">
-                        <h1>Name:- The Avenger</h1>
-                        <h2>Rating:-&nbsp;8.9</h2>
-                        <p>Producer:-John William and Anglika Rustom</p>
-                    </div>
-                    <div class="video"></div>
+    </nav>
+    <!-- HAM BAR -->
+    <div id="hambar"></div>
+    <!-- folio -->
+    <div style="box-sizing: border-box;  " class="bg-slate-500 w-[100%] h-auto sm:space-x-40    flex-wrap p-1  justify-items-center align-middle flex">
+        <!-- MY Self Introduction -->
+        <div style="box-sizing: border-box; " class=" sm:mx-[20px] mx-0 mt-[10px] bg-white sm:mt-[80px]  w-[90%] md:w-[40%] md:h-[40%] h-[90%] space-y-10 gap-5 flex-row justify-items-center  align-middle ">
+            <h1 class="text-7xl">I ,am</h1>
+            <h1 class="text-6xl">SHUBHAM SINGH</h1>
+            <p class="text-2xl">i am Devloper |youtuber</p>
+            <button class="text-2xl m-5 text-white bg-pink-600 p-4 rounded-xl">Contact</button>
 
-                </div>
+
+        </div>
+        <div style="box-sizing: border-box;  " class=" sm:mx-48 bg-red-500 h-[90%] sm:w-[40%] sm:mt-[80px]  sm:h-[80%] w-[90%] flex justify-center">
+            <img class="h-80" src="https://static.vecteezy.com/system/resources/thumbnails/011/153/363/small/3d-web-developer-working-on-project-illustration-png.png" alt="">
+
+        </div class="bg-red-700 w-[10%] h-[20%]">
+
+    </div>
+    <!-- Services -->
+    <div style="box-sizing: border-box; padding-left: 22px;" class="bg-red-600 w-[100%] h-[600px] flex-row text-3xl p-10 ">
+        <h1>Services | Provide</h1>
+        <div class="bg-yellow-500  sm:mx-20px text-3xl flex  h-[400px] w-[90%] ">
+            <div class="text-xl bg-white w-[20%] h-[90%]">
+                <br>
+                <br>
+                <br>
+
+
+
+                <p class="text-2xl">Website Devlopment</p>
+                <p class="text-xl">Web Page . Hosting . Contact Form</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil amet nisi doloremque impedit sequi consectetur cupiditate dolorum </p>
+                <button>View More</button>
+
+
             </div>
-            <img class="poster-image" src="https://upload.wikimedia.org/wikipedia/en/b/b6/Lagaan.jpg" alt="">
-        </div> -->
 
-    </main>
+        </div>
+
+    </div>
 
 
-    <script src="script.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
