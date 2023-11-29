@@ -40,7 +40,7 @@ let serviceProvide = [{
     {
         logo: 'fa-brands fa-app-store-ios',
         Tradition: 'App Devlopment',
-        provide: 'App Services | Any Type App Creation | Rest Api Creation'
+        provide: 'App Services | Any Type App Creation '
     },
     {
         logo: "fa-brands fa-google",
@@ -58,7 +58,7 @@ let serviceProvide = [{
 function Servicey() {
     let Service = `  `
     for (let i = 0; i < serviceProvide.length; i++) {
-        Service = Service + `<div style="box-shadow: -8px -8px 10px; " class="text-xl bg-white rounded-xl m-5  md:w-[20%] overflow-hidden h-[90%]">
+        Service = Service + `<div style="box-shadow: -8px -8px 10px; " class="text-xl bg-white rounded-xl m-5  md:w-[20%] overflow-hidden h-[100%]">
         <i style="align-self: center;" class=" mt-[5%] mx-[40%]  ${serviceProvide[i].logo}  text-[200%]"></i>
 
 
