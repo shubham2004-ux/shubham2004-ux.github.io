@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="hambar.css">
+</head>
+
+<body>
+    <nav style="padding: 0 5%; align-items: center; box-sizing: border-box;" class="h-[77px] w-[100%]  bg-gradient-to-r from-blue-800 to-sky-300 flex justify-between ">
+        <div class=" w-[30%] h-[50%] ">
+            <p style="font-family:cursive ;" class="  text-orange-400   font-bold text-[200%]">S.S.Devloper</p>
+
+        </div>
+
+        <div id="navbar-full" class="flex font-serif  w-[30%] h-[70%] justify-center align-middle flex-wrap">
+            <ul style="align-items: center;" class="text-white  justify-items-center flex   space-x-10 md:text-[150%] flex-wrap">
+                <li class="cursor-pointer">Home</li>
+                <li class="cursor-pointer">Menu</li>
+                <li class="cursor-pointer">Project</li>
+                <li class="cursor-pointer">About</li>
+            </ul>
+        </div>
+        <div class=" text-center w-[20%] h-[100%] md:hidden">
+            <p onclick="ok()" class="text-white text-[50px] cursor-pointer"><i class="fa-solid fa-bars"></i></p>
+        </div>
+
+
+
+    </nav>
+    <!-- HAM BAR -->
+    <div id="hambar"></div>
+    <!-- folio -->
+    <div style="box-sizing: border-box;  " class=" w-[100%] h-auto md:space-x-40 pb-28 md:pb-0 flex-wrap md:p-5 justify-items-center align-middle flex ">
+        <!-- MY Self Introduction -->
+        <div style="box-sizing: border-box; " class=" mt-[8%] sm:my-[10%] my-[20%] mx-[5%] md:mx-[20px] bg-white md:mt-[80px] w-[90%] md:w-[40%] md:h-[40%] h-[90%] space-y-10 gap-5 flex-row justify-items-center flex-wrap align-middle ">
+            <h1 class="text-7xl ">I ,am</h1>
+            <h1 class="text-6xl animate-pulse ">SHUBHAM SINGH</h1>
+            <p class="text-2xl ">I am Devloper | Designer | Content Creator </p>
+            <button class="text-2xl m-2 text-white bg-pink-600 p-4 rounded-xl ">Contact</button>
+
+
+        </div>
+        <div style="box-sizing: border-box; " class=" md:mx-48 mx-[8%]  h-[90%] sm:w-[40%] sm:mt-[80px] sm:h-[80%] w-[90%] flex justify-center ">
+            <img class="h-80 rounded-3xl " src="./shubham.jpg" alt=" shubham photo">
+
+        </div class="bg-red-700 w-[10%] h-[20%] ">
+
+    </div>
+    <!-- Services -->
+    <div style="box-sizing: border-box; padding-left: 22px; justify-content: center; align-items: center; " class=" md:bg-gradient-to-t from-yellow-300 to-blue-500 w-[100%] h-a justify-items-center align-middle flex-row text-3xl p-10 ">
+        <h1>Services | Provide</h1>
+        <div id="yellow" style="align-items: center; box-sizing: border-box; " class=" flex-wrap m-10 mx-20  justify-center align-middle sm:mx-20px text-3xl flex h-[400px] w-[90%] ">
+
+
+        </div>
+
+    </div>
+
+    </div>
+
+
+    <script src="main.js "></script>
+</body>
+
+</html>
