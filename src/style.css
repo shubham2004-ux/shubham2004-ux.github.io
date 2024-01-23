@@ -1,0 +1,122 @@
+/* Webkit (Safari, Chrome) */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background-color: #6cade9;
+}
+
+
+/* Firefox */
+
+ ::-moz-scrollbar {
+    width: 12px;
+}
+
+ ::-moz-scrollbar-thumb {
+    background-color: #888;
+}
+
+
+/* IE and Edge */
+
+ ::-ms-scrollbar {
+    width: 12px;
+}
+
+ ::-ms-scrollbar-thumb {
+    background-color: #888;
+}
+
+#response {
+    left: 100%;
+    transition: all 500ms ease-in;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input {
+    border: 2px solid blue;
+    border-radius: 5px;
+    width: 40vw;
+    /* text-align: start; */
+    text-indent: 7px;
+    color: black;
+}
+
+.filter {
+    filter: invert(1);
+}
+
+.text {
+    position: static;
+    color: #060475;
+    font-size: 30px;
+    /* border: 1px solid black; */
+    font-weight: 600;
+}
+
+.text.second-text:before {
+    content: "";
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    background-color: #fbf5f5;
+    border-left: 2px solid #1313c9;
+    animation: animate 4s infinite;
+}
+
+@keyframes animate {
+    40%,
+    60% {
+        left: calc(50%);
+    }
+    100% {
+        left: 0%;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .folio {
+        margin-top: 25%;
+    }
+    #navbar-full {
+        display: none;
+    }
+    .Services {
+        overflow: auto;
+    }
+    .netflix {
+        overflow: auto;
+        flex-wrap: wrap;
+    }
+    .spotify {
+        overflow: auto;
+        flex-wrap: wrap;
+    }
+    .explore {
+        flex-wrap: wrap;
+        margin: 0%;
+        row-gap: 20px;
+    }
+    .design {
+        margin-left: 6%;
+    }
+    input {
+        /* border: 2px solid blue;
+        border-radius: 5px; */
+        width: 80vw;
+        /* text-align: start; */
+        text-indent: 7px;
+    }
+    .contact {
+        margin-left: -23%;
+    }
+}

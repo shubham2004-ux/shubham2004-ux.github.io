@@ -4,303 +4,286 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="netflix.css">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="src/style.css">
 </head>
 
 <body>
-    <div>
+    <nav style="padding: 0 5%; position: fixed; align-items: center; box-sizing: border-box;" class="h-[77px] w-[100%]   bg-gradient-to-r from-blue-800 z-20 to-sky-600 flex justify-between ">
 
-        <!-- That is navbar  -->
+        <!-- Logo of this navbar -->
+        <div class=" w-[30%] h-[50%] ">
+            <p style="font-family:cursive ;" class="  text-orange-400   font-bold text-[200%]">S.S.Devloper</p>
 
-        <nav>
-            <div class="navbar">
-                <span class="logo"><img style="height: 30px;" src="assets/image/logo.svg" alt=""></span>
-                <div class="btn">
-                    <button class="language">English</button>
-                    <button>Sign in</button>
-                </div>
-            </div>
-        </nav>
-
-        <!-- That is nav bar content inside -->
-
-        <div class="content">
-            <div class="child1 lower1">Unlimited movies, TV shows and more</div>
-            <div class="child2">Watch anywhere. Cancel anytime.</div>
-            <div class="child3">Ready to watch? Enter your email to create or restart your membership.</div>
-            <div class="input">
-                <input type="text" style="border-radius: 2px; background-color: black; opacity: 0.6;  color: white; padding: 10px 22px;" placeholder="Email Address">
-                <a href="Netflix Project/index.html"> <button class="get">Get Started</button></a>
-            </div>
         </div>
 
-        <div class="main wallpaper">
+        <!-- HAM BAR  medium size Nav bar   -->
+
+        <div id="navbar-full" class=" font-serif  ">
+            <ul class="text-white flex space-x-6 md:text-[150%] cursor-pointer flex-wrap">
+                <li>Home</li>
+                <li>Menu</li>
+                <li>Project</li>
+                <li>About</li>
+            </ul>
         </div>
-        <div class="main">
+
+        <!-- Responsive Navbar -->
+
+        <div class="cursor-pointer block sm:hidden filter  ">
+            <img id="hambar" width="30px" src="svg/HAMBURGER.SVG" alt="" srcset="">
+        </div>
+
+        <div id="response" class="absolute h-[100vh] w-[60vw] right-[0%]  top-0  bg-blue-500 transition-all ">
+            <div class="close absolute right-10 cursor-pointer filter">
+                <img src="svg/close.svg" width="30px" alt="" srcset="">
+            </div>
+            <ul class="text-white   m-32 cursor-pointer  text-xl    font-bold   space-y-10">
+                <li class="cursor-pointer">Home</li>
+                <li class="cursor-pointer">Menu</li>
+                <li class="cursor-pointer">Project</li>
+                <li class="cursor-pointer">About</li>
+            </ul>
+        </div>
+
+
+
+
+
+    </nav>
+
+
+    <!-- folio -->
+    <div style="box-sizing: border-box;  " class="w-[100%]   h-auto md:space-x-40 pb-28 md:pb-0 flex-wrap md:p-5 justify-items-center align-middle flex ">
+        <!-- MY Self Introduction -->
+        <div style="box-sizing: border-box; " class="folio mt-[8%]  sm:my-[10%] my-[20%] mx-[5%] md:mx-[20px] bg-white md:mt-[80px] w-[90%] md:w-[40%] md:h-[40%] h-[90%] space-y-5 gap-5 flex-row justify-items-center flex-wrap align-middle ">
+            <h1 class="text-[50px] ">I ,am</h1>
+            <h1 class="text-[50px] ">SHUBHAM SINGH</h1>
+            <span class="text-2xl">I am</span>
+            <span class="text second-text"></span>
+            <p class="text-2xl ">Frontend | Backend | Full-Stack | Engineer... </p>
+            <button class="text-2xl m-2 text-white bg-pink-600 p-4 rounded-xl ">Contact</button>
+
+
+        </div>
+        <div style="box-sizing: border-box; " class=" md:mx-48 mx-[8%]  h-[90%] sm:w-[40%] sm:mt-[80px] sm:h-[80%] w-[90%] flex justify-center ">
+            <img class="h-[50vh] rounded-3xl " src="./img/shubham.jpg" alt=" shubham photo">
+
+        </div class="bg-red-700 w-[10%] h-[20%] ">
+
+    </div>
+    <!-- It barriers -->
+    <div class="bg-gradient-to-r  from-blue-900 to-sky-400  font-serif text-white p-10 space-y-3">
+        <div class="text-[25px]   sm:text-[2vw]">
+            | Hello Devlopers |
+        </div>
+        <div class="text-[18px] sm:text-[1.5vw]">
+            <p>Hi there! My name is Shubham Singh and I’m a Full-Stack engineer with over 1years of experience in the industry. I love all things tech and coding, and on my channel, I share my knowledge and experience with others.</p>
+        </div>
+        <div class="text-[19px] sm:text-[1.7vw]">
+            |Readmore.....
+        </div>
+    </div>
+    <hr>
+    <!-- Services -->
+    <div style=" box-sizing: border-box;  justify-content:    center; align-items: center; " class=" Services bg-gradient-to-r from-blue-800 to-sky-300   w-[100%]  justify-items-center  align-middle flex-row text-3xl p-10 ">
+        <h1 class="text-white">Services | Provide</h1>
+        <div id="yellow" class=" sm:flex justify-center   m-10 h-[350px] w-[95%]  sm:space-x-16 text-[10px]  items-center">
+
+
         </div>
 
     </div>
 
-
-    <!--Border for main content  -->
-
-    <div class="partation"> </div>
-    <!-- that is partation  -->
-
-
-
-    <!-- That is the 1st mian content  -->
-    <div class="children1">
-        <div class="text">
-            <div class="text1"><span style="font-size: 40px; font-weight: bold;">Enjoy on your TV</span>
+    </div>
+    <hr>
+    <!-- Project in my portfolio -->
+    <div class="project h-auto p-10   bg-gradient-to-r from-blue-900 to-sky-400">
+        <div>
+            <h1 class="text-3xl align-middle  text-white  "> Web | Projects</h1>
+        </div>
+        <h2 class="m-8 text-white text-2xl">Project 1</h2>
+        <div class="netflix border-4  flex justify-around align-middle items-center h-[90vh] sm:h-[70vh] bg-gradient-to-r from-blue-800  to-sky-400 m-1  sm:m-10 rounded-xl ">
+            <div class="h-[65vh] w-[55vw] overflow-auto m-10  ">
+                <img src="img/netflix.jpg" alt="" srcset="">
+            </div>
+            <div class="flex-col justify-center items-center m-10 font-serif  z-10     text-white ">
+                <div class="text-3xl text-white">
+                    Ententainment Website
+                </div>
                 <div>
-                    <span class="lower">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</span>
+                    <p>Introducing our Netflix Entertainment website, a seamless Watching Experience crafted with the latest technology. Powered by ReactJS for a lightning-fast and responsive interface, and adorned with the modern aesthetics of Tailwind
+                        CSS.
+                    </p>
+                </div>
+                <div class=" cursor-pointer flex space-x-10  my-10 text-2xl font-bold">
+                    <div class="flex git-live">code <img class="bg-black rounded-full h-[6vh] filter" src="svg/github.svg" alt=""></div>
+                    <div class="netflix-live  flex he">live&nbsp;Demo <img class="bg-black rounded-full h-[6vh] filter" src="/svg/live.svg" alt=""></div>
                 </div>
             </div>
-
-
-            <div class="tv">
-                <img height="280vh" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="">
-                <video style="overflow: hidden;" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" autoplay muted></video>
-            </div>
-
         </div>
 
 
-    </div>
-
-    <div>
-        <!-- that is partation  -->
-        <div class="partation "> </div>
-        <!-- That is the 2nd mian content  -->
-        <div class="children1 ">
-            <div class="text ">
-                <div class="tv ">
-                    <img height="280vh " src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg " alt=" ">
-
-                </div>
-                <div class="text1"><span style="font-size: 40px; font-weight: bold; ">Download your shows to watch offline</span>
-                    <span class="lower">Save your favourites easily and always have something to watch.</span>
-                </div>
+        <!-- Project 2nd Spotify -->
 
 
-
-
+        <h2 class="m-8 text-white text-2xl">Project 2</h2>
+        <div class="spotify border-4  flex justify-around align-middle items-center   sm:h-[70vh] m-1  sm:m-10 rounded-xl">
+            <div class="sm:h-[35vh] h-[15vh] w-[18vw]  sm:w-[15vw] overflow-hidden m-10 ">
+                <img src="/img/spotify-icon-png-15382.png" alt="" srcset="">
             </div>
-
-
-        </div>
-
-
-
-    </div>
-
-    <div>
-        <!-- that is partation  -->
-        <div class="partation "> </div>
-        <!-- That is the 2nd mian content  -->
-        <div class="children1 ">
-            <div class="text ">
-
-                <div class="text1 "><span style="font-size: 40px; font-weight: bold; ">Watch everywhere</span>
-                    <span class="lower">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</span>
+            <div class="flex-col justify-center items-center m-10 font-serif  z-10    text-white ">
+                <div class="text-3xl text-white">
+                    COMIN SOON
                 </div>
-                <div class="tv ">
-                    <img height="280vh " src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png " alt=" ">
-                    <video class="video1" style="overflow: hidden;" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v" autoplay muted></video>
-
+                <div>
+                    <p>
+                        Spotif Music Player With ALl Music Libraries and Portable Music Media Player For Mp3 Songs
+                    </p>
                 </div>
-
-
-
+                <div class=" cursor-pointer flex space-x-10  my-10 text-2xl font-bold">
+                    <div class="flex  ">code <img class="bg-black rounded-full h-[6vh] filter" src="/svg/github.svg" alt=""></div>
+                    <div class="flex he">live&nbsp;Demo <img class="bg-black rounded-full h-[6vh] filter" src="/svg/live.svg" alt=""></div>
+                </div>
             </div>
-
-
         </div>
 
 
 
     </div>
+    <hr>
+    <!-- About Section -->
+    <div class="about p-10  bg-gradient-to-r from-blue-800  to-sky-400 text-white font-serif ">
+        <div class="text-3xl ">
+            <h1>About | Me</h1>
+        </div>
+        <div class="personal text-xl border-2 w-[80%] m-12 p-5 rounded-xl mx-[10%]">
 
-
-    <div>
-        <!-- that is partation  -->
-        <div class="partation "> </div>
-        <!-- That is the 2nd mian content  -->
-        <div class="children1 ">
-            <div class="text ">
-                <div class="tv ">
-                    <img height="280vh " src="https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d " alt=" ">
-
-                </div>
-
-                <div class="text1 "><span style="font-size: 40px; font-weight: bold; ">Create profiles for kids</span>
-                    <span class="lower">Send children on adventures with their favourite characters in a space made just for them—free with your membership.</span>
-                </div>
-
-
-
-
-            </div>
-
-
+            <p>
+                The term “full-stack” refers to the engineer’s ability to work on both the front-end and back-end development of an application. A full-stack engineer is a high-level software engineer who works to design, test, and implement various software applications..
+            </p>
         </div>
 
+        <!-- Explore -->
 
+        <div class="flex justify-center items-center text-3xl font-bold">
+            <h1 class="m-5">||Explore ||</h1>
+        </div>
+        <div class="explore  text2xl flex sm:mx-[10%]  sm:w-[80%] sm:m-5   border-2 space-x-6 mx-[10%]  p-5 rounded-xl ">
+            <div class="design">
+                <H1 class="text-[20px]">DESIGN</H1>
+                <span> I can design the site based on your needs and suggestion I can also design the site from scratch and consult you during the job</span>
+            </div>
+            <div class="devlopment">
+                <h1 class="text-[20px]">DEVLOPMENT</h1>
+                <span> I can design the site based on your needs and suggestion I can also design the site from scratch and consult you during the job</span>
+            </div>
+            <div class="maintainance ">
+                <H1 class="text-[20px] ">MAINTAINANCE</H1>
+                <span> I can design the site based on your needs and suggestion I can also design the site from scratch and consult you during the job</span>
+            </div>
+        </div>
 
-    </div>
-    <div>
-        <!-- that is partation  -->
-        <div class="partation "> </div>
-        <!-- That is the 2nd mian content  -->
-        <div class="lo">
-            <div style="display: flex; flex-direction: column; color:white; justify-content: center; align-items: center; " class="">
-                <div style="margin: 3%;">
-                    <h1>Frequently Asked Questions</h1>
+        <hr>
+        <!-- skills -->
+        <div class="skills">
+            <div class="heading text-3xl m-5">
+                <h1>SKILLS</h1>
+            </div>
+            <!-- USING  NOW -->
+
+            <div class=" border-2 sm:h-[40vh] flex-wrap main  sm:grid sm:grid-cols-3 justify-center  ">
+                <div class="border-2 ">
+                    <div class="flex justify-center text-2xl m-2">
+                        <h2>Using | Now</h2>
+                    </div>
+                    <DIV class="flex space-x-10 m-5 flex-wrap items-center justify-center ">
+                        <div> <img width="50vw" src="https://shubham2004-ux.github.io/SINGH-ASSOCIATION/html.jpg" alt=""><span>HTML</span></div>
+                        <div> <img width="50vw" src="https://shubham2004-ux.github.io/SINGH-ASSOCIATION/css.jpg" alt=""><span>CSS</span></div>
+                        <div> <img width="50vw" src="https://shubham2004-ux.github.io/SINGH-ASSOCIATION/js.jpg" alt=""><span>JS</span></div>
+                        <div> <img width="50vw" src="https://shubham2004-ux.github.io/SINGH-ASSOCIATION/tailwind.jpg" alt=""><span>TAILWIND</span></div>
+
+                    </DIV>
                 </div>
-
-                <div style="display: flex; flex-direction:  column; justify-content:center; align-items: center; gap: 10px;">
-                    <div style="background-color: rgb(61, 49, 49); width: 90vw;  padding: 20px 40px; justify-content: space-between; display: flex;  cursor: pointer; border-radius: 5px;  ">
-                        <h2>what is Netflix</h2>
-                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" class="elj7tfr3 e164gv2o4 default-ltr-cache-l7vm9h e1svuwfo1" data-name="Plus" alt=""><path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z" fill="currentColor"></path></svg>
+                <div class="border-2">
+                    <div class="flex justify-center text-2xl m-2">
+                        <h2> Currently| Learning </h2>
                     </div>
+                    <DIV class=" space-x-6 m-5  items-center justify-center flex flex-wrap">
 
-
-                    <div style="background-color: rgb(61, 49, 49); width: 90vw; padding: 20px 40px; justify-content: space-between; display: flex; cursor: pointer; border-radius: 5px;   ">
-                        <h2>How much does Netflix cost</h2>
-                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" class="elj7tfr3 e164gv2o4 default-ltr-cache-l7vm9h e1svuwfo1" data-name="Plus" alt=""><path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z" fill="currentColor"></path></svg>
-                    </div>
-
-                    <div style="background-color: rgb(61, 49, 49); width: 90vw; padding: 20px 40px; justify-content: space-between; display: flex; cursor: pointer; border-radius: 5px;   ">
-                        <h2>Where Can I Watch</h2>
-                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" class="elj7tfr3 e164gv2o4 default-ltr-cache-l7vm9h e1svuwfo1" data-name="Plus" alt=""><path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z" fill="currentColor"></path></svg>
-                    </div>
-
-
-                    <div style="background-color: rgb(61, 49, 49); width: 90vw; padding: 20px 40px; justify-content: space-between; display: flex; cursor: pointer; border-radius: 5px;   ">
-                        <h2>How do I Cancel</h2>
-                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" class="elj7tfr3 e164gv2o4 default-ltr-cache-l7vm9h e1svuwfo1" data-name="Plus" alt=""><path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z" fill="currentColor"></path></svg>
-                    </div>
-
-                    <div style="background-color: rgb(61, 49, 49); width: 90vw; padding: 20px 40px; justify-content: space-between; display: flex; cursor: pointer; border-radius: 5px;   ">
-                        <h2>What can I Watch on Netflix</h2>
-                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" class="elj7tfr3 e164gv2o4 default-ltr-cache-l7vm9h e1svuwfo1" data-name="Plus" alt=""><path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z" fill="currentColor"></path></svg>
-                    </div>
-
-                    <div style="background-color: rgb(61, 49, 49); margin-bottom: 0PX;  width: 90vw; padding: 20px 40px; justify-content: space-between; display: flex; cursor: pointer; border-radius: 5px;   ">
-                        <h2>is Netflix is Goog For Kids</h2>
-                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" class="elj7tfr3 e164gv2o4 default-ltr-cache-l7vm9h e1svuwfo1" data-name="Plus" alt=""><path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z" fill="currentColor"></path></svg>
-                    </div>
-
+                        <div> <img class="w-[50px]  sm:w-[4vw]" src="https://cdn1.iconfinder.com/data/icons/programing-development-8/24/node_js_logo-1024.png" alt=""><span>Node JS</span></div>
+                        <div> <img class="w-[90px]  sm:w-[6vw]" src="https://dwglogo.com/wp-content/uploads/2017/12/MongoDB_logo_01.png" alt=""><span>Mongodb</span></div>
+                        <div> <img class="w-[50px]  sm:w-[4vw]" src="https://img.icons8.com/officel/2x/express-js.png" alt=""><span></span>Express-js</div>
+                        <div> <img class="w-[50px]" src="svg/logo512.png" alt=""><span>React</span></div>
+                    </DIV>
+                </div>
+                <!-- Other Skills -->
+                <div class="border-2">
                     <div>
-                        <div class="input" style="padding: 40px; gap: 20px; display: flex; flex-direction: column;">
-                            <div>
-                                <h4>Ready to watch? Enter your email to create or restart your membership.</h4>
-                            </div>
-                            <div>
-                                <input type="text" style="border-radius: 2px; background-color: black; opacity: 0.6;  color: white; padding: 10px 22px;" placeholder="Email Address">
-                                <a href="Netflix Project/index.html"> <button class="get">Get Started</button></a>
-                            </div>
-                        </div>
+                        <h2 class="flex justify-center text-2xl m-2"> Other | Skills </h2>
                     </div>
+                    <DIV class=" space-x-8 m-5 flex-wrap items-center  justify-center flex">
+
+                        <div> <img class="w-[50px]  sm:w-[4vw]" src="https://shubham2004-ux.github.io/SINGH-ASSOCIATION/pythonIcon.jpg" alt=""><span>python</span></div>
+                        <div> <img class="w-[50px]  sm:w-[4vw]" src="https://shubham2004-ux.github.io/SINGH-ASSOCIATION/c.jpg" alt=""><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C</span></div>
+                        <div> <img class="w-[50px]  sm:w-[4vw]" src="https://shubham2004-ux.github.io/SINGH-ASSOCIATION/c++.jpg" alt=""><span></span>&nbsp;&nbsp;&nbsp;Cpp</div>
+                        <div> <img class="w-[50px]  sm:w-[4vw]" src="svg/github.svg" alt=""><span>GitBash/Hub</span></div>
+
+                    </DIV>
                 </div>
-
-
-
-
             </div>
 
-
         </div>
-
-
 
     </div>
-    <!-- that is partation  -->
-    <div class="partation "> </div>
 
-    <div>
-        <div style="  padding: 50px;    display: flex; justify-content: center; justify-content: space-around; " class="footer">
-            <div style="row-gap: 10px; color: white; display:  flex; flex-direction: column;">
-                <div>
-                    <a href=""> FAQ </a>
+
+
+    <hr>
+    <!-- Contact Detail -->
+    <div class="contact-detail p-10 flex justify-around align-middle items-center text-white  bg-gradient-to-r from-blue-800 to-sky-300 sm:gap-0   flex-wrap">
+        <div class="space-y-10 text-xl contact ">
+            <div class="text-3xl font-mono ">
+                <h1>Connect with me</h1>
+            </div>
+            <div class="filter ">
+                <div class="flex space-x-2 items-center space-y-2">
+                    <img src="location.svg" alt="">
+                    <h2 class="filter">Place Delhi</h2>
                 </div>
-                <div>
-                    <a href="">Investor Relations</a>
-                </div>
-                <div>
-                    <a href="">Pravicy</a>
-                </div>
-                <div>
-                    <a href="">Speed Test</a>
-                </div>
-                <div>
-                    Netflix India
+                <div class="flex space-x-2 items-center space-y-2">
+                    <img src="mail.svg" alt="">
+                    <h2 class="filter">shubham.0202.in@gmail.com</h2>
                 </div>
             </div>
-
-
-            <div style="row-gap: 10px; display:  flex; flex-direction: column;">
-                <div>
-                    <a href="">Help Centre </a>
-                </div>
-                <div>
-                    <a href="">Jobs</a>
-                </div>
-                <div>
-                    <a href="">Cookie Refrence</a>
-                </div>
-                <div>
-                    <a href="">Leagal Notice</a>
-                </div>
+            <div class="flex space-x-5 items-center cursor-pointer">
+                <img src="svg/github.svg" alt="">
+                <img class="filter" src="svg/twiteer.svg" alt="">
+                <img class="filter" src="svg/linkden.svg" alt="">
+                <img src="svg/youtube.svg" alt="">
             </div>
-
-
-            <div style="row-gap: 10px; display:  flex; flex-direction: column;">
-                <div>
-                    <a href="">Account</a>
-                </div>
-                <div>
-                    <a href="">Ways to watch</a>
-                </div>
-                <div>
-                    <a href="">Corporate Information</a>
-                </div>
-                <div>
-                    <a href="">Only on Netflix</a>
-                </div>
-            </div>
-
-
-            <div style="row-gap: 10px; display:  flex; flex-direction: column;">
-                <div>
-                    <a href="">Media Centre </a>
-                </div>
-                <div>
-                    <a href="">Term of use</a>
-                </div>
-                <div>
-                    <a href="">Contact us</a>
-                </div>
-
-            </div>
-
-
-
-
-
         </div>
+        <div class=" space-y-5 ">
+            <div class="text-3xl font-mono">
+                <h1>-Connect me</h1>
+            </div>
+            <div class="">
+                <input type="text" placeholder="Your Name">
+            </div>
+            <div>
+                <input type="text" placeholder="Your E-mail">
+            </div>
+            <div class="">
+                <input type="text " class="h-[20vh]" placeholder="Your Message">
+            </div>
+            <div class="bg-blue-700 p-2  px-[28 %]  rounded-xl text-white align-middle items-center ">
+                <button>Send Message</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js "></script>
 </body>
-
-
-
-
-
-
-
-
-
-
 
 </html>
