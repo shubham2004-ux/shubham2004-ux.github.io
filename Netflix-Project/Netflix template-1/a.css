@@ -26,7 +26,7 @@
         }
         
         body {
-            background-image: url(/assets/image/netflix-background.jpg);
+            background-image: url(/Netflix-Project/assets/image/netflix-background.jpg);
             background-position: center center;
             /* background-repeat: no-repeat; */
         }
@@ -90,6 +90,9 @@
             }
             .main {
                 padding-top: 15%;
+            }
+            .op {
+                margin-right: 10%;
             }
             .rating {
                 width: 25vw;

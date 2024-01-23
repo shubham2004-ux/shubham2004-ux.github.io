@@ -54,7 +54,7 @@ input {
 
 .text {
     position: static;
-    color: #060475;
+    color: #be0c0c;
     font-size: 30px;
     /* border: 1px solid black; */
     font-weight: 600;
@@ -69,7 +69,7 @@ input {
     height: fit-content;
     color: white;
     background-color: #fbf5f5;
-    border-left: 2px solid #1313c9;
+    border-left: 2px solid #c91383;
     animation: animate 4s infinite;
 }
 
@@ -96,6 +96,7 @@ input {
     .netflix {
         overflow: auto;
         flex-wrap: wrap;
+        padding: 0%;
     }
     .spotify {
         overflow: auto;
